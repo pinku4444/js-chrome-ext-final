@@ -1,0 +1,82 @@
+.modal-backdrop {
+    opacity: 0.4 !important;
+}
+
+.loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin-left: 180px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.backButton {
+    margin-left: 220px;
+    visibility: hidden;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header_left {
+    background-color: darkgray;
+    text-align: left;
+}
+
+.header_right {
+    background-color: red;
+}
+
+.logo {
+    height: 55px;
+}
+
+body {
+    width: 450px;
+    height: auto;
+    /* background-image: url(/images/pic6.jpeg) */
+}
+
+.active-purple-4 input[type="text"]:focus:not([readonly]) {
+    border: 1px solid skyblue;
+    box-shadow: 0 0 0 1px skyblue;
+}
+
+.searchDiv {
+    margin: 30px;
+    margin-bottom: 5px;
+}
+
+.searchList {
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.example {
+    background-color: EEEEEE;
+    border: 1px dotted gray;
+    color: black;
+    padding: 12px;
+}
